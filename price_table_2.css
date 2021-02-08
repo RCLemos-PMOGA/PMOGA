@@ -17,6 +17,12 @@ background-color: #2b89c8;
  background-color: #26425f;
 }
 
+.background-light h3 {
+color: #fff;
+}
+
+
+
 .card {
   border: 0;
   border-radius: 0px;
@@ -60,7 +66,7 @@ background-color: #2b89c8;
 .card .list-group-item {
   border: 0px;
   padding: 0.25rem;
-  color: #808080;
+  color: #fff;
   font-weight: 300;
 }
 
