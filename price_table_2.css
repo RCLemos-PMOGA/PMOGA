@@ -5,6 +5,18 @@
  * Copyright 2021 PMO Global Alliance 
  /*!
 /*Main*/
+.cd1 {
+background-color: #2b89c8;
+}
+
+.cd2 {
+ background-color: #4c7095;
+}
+
+.cd3 {
+ background-color: #26425f;
+}
+
 .card {
   border: 0;
   border-radius: 0px;
