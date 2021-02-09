@@ -71,11 +71,10 @@ color: #fff;
 }
 
 .display-2 {
-  font-size: 7rem;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.3rem;
 }
 .display-2 .currency {
-  font-size: 2.75rem;
+  font-size: 2rem;
   position: relative;
   font-weight: 400;
   top: -45px;
