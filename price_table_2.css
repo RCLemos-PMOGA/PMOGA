@@ -234,7 +234,7 @@ input:checked + .slider:before {
     display:none;
 }
 .text-xs-center {
-    height: 500px !important;
+    height: 600px !important;
 }
 /*_____________________ end drop _____________________*/
 /*
