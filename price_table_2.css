@@ -175,7 +175,7 @@ input:checked + .slider:before {
 /*_____________________ drop _____________________*/
 .dropdown-toggle,
 .dropdown-menu {
-  width: 300px;
+  width: 100%;
 }
 
 .dropdown-toggle {
