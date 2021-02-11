@@ -77,11 +77,11 @@ color: #fff;
   font-size: 2rem;
   position: relative;
   font-weight: 400;
-  top: -45px;
+  //top: -45px;
   letter-spacing: 0px;
 }
 .display-2 .period {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #e6f5ff;
   letter-spacing: 0px;
 }
