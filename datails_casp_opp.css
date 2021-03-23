@@ -1,0 +1,511 @@
+table {
+  width: 100%;
+  /*table-layout: fixed;*/
+}
+.ten {
+  width: 30;
+  /*background: tomato;*/
+}
+.twenty {
+  width: 70%;
+  /*background: turquoise*/
+}
+/* see me */
+td {
+  border: none;
+}
+tr {
+  border: none;
+}
+table {
+  border: none;
+}
+/* play with bg cells and cols ? */
+
+/*tr:nth-child(even) :nth-child(odd) {
+  background:rgba(100,255,50,0.3);
+  }
+tr:nth-child(odd) :nth-child(even) {
+  background:rgba(255,255,255,0.3);
+  }*/
+/* ------------ End Table ----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Width of Full Page */
+
+.page-body {
+  font-family: 'Average', serif;
+  color: #545454;
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  background: #ededf8;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper__outer-body {
+  width: 100%;
+}
+
+.wrapper__inner-body {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Average', serif;
+  line-height: 1.3em;
+  color: #545454;
+}
+.event-subtitle {
+  font-weight: 400;
+  color: #545454;
+  clear: left;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.menu-button {
+  background-color: #021096;
+  color: white;
+  display: block;
+  font-size: 1.25em;
+  margin: .2em;
+  padding: .5em 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.wrapper__event-info {
+  margin-bottom: 10px;
+  padding: 35px;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+.event-title {
+  background-color: #FFF;
+  font-size: 40px;
+  clear: both;
+  color: #009;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 42px;
+  text-shadow: 1px 1px #021096;
+}
+
+.event-summary {
+  width: 55%;
+  float: left;
+}
+
+.event-details {
+  max-width: 330px;
+  background-color: #FFF;
+  width: 40%;
+  float: right;
+}
+
+.event-details h2,
+.event-details h3 {
+  margin-bottom: 10px;
+}
+
+.event-date {
+  color: #009;
+  font-size: 24px;
+}
+.event-address-name {
+  color: #021096;
+}
+
+.event-time {
+  color: #545454;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.register-button {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+
+/* Panelists Styling START */
+
+.wrapper__panelists {
+  padding: 35px;
+  background-color: white;
+  //width: 80%;
+  margin-bottom: 10px;
+}
+.wrapper__panelists img {
+  max-width: 100px;
+}
+ .click {
+  font-size: 12px;
+  font-style: italic;
+}
+.panelist-name {
+  font-weight: bold;
+  color: #021096;
+}
+.wrapper__panelists ul { list-style-type: none; }
+label{
+ 
+	padding: 3px;
+	padding-left: 25px;
+	
+}
+#panelist-info__border #panelist-bio__border li {
+
+  border-style: solid;
+    border-color: #021096;
+    border-width: 1px 0 0 0;
+  border-radius: 0px;
+	
+}
+
+#panelist-info__border li {
+  display: inline-block;
+}
+#panelist-info__border li {
+ 
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 2px 0 0;
+  border-radius: 0px;
+}
+
+.job-title { font-size: 85%; }
+.wrapper__panelists li { 
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #021096;
+	border-radius: 5px;
+
+}
+
+.sponsor-logo li {
+  list-style-type: none;
+}
+input[type=checkbox] { display: none; }
+input[type=checkbox] ~ ul { 
+	max-height: 0;
+	max-width: 0;
+	opacity: 0;
+	overflow: hidden;
+	white-space:normal;
+   -webkit-transition:all 0s ease;  
+   -moz-transition:all 0s ease;  
+   -o-transition:all 0s ease;  
+   transition:all 0s ease;  
+	
+}
+input[type=checkbox]:checked ~ ul { 
+	
+  max-height: 100%;
+	max-width: 100%;
+	opacity: 1;
+}
+input[type=checkbox] + label:before{
+	transform-origin:25% 50%;
+  border: 8px solid transparent;
+  border-width: 8px 12px;	
+  border-left-color: #FD6620;
+  margin-left: -24px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	text-align: center;
+	content: '';
+	color: #AAAFAB;
+   -webkit-transition:all .5s ease;  
+   -moz-transition:all .5s ease;  
+   -o-transition:all .5s ease;  
+   transition:all .5s ease; 
+	position: absolute;
+	margin-top: 1px;
+}
+input[type=checkbox]:checked + label:before {
+	transform: rotate(90deg);
+	/*margin-top: 6px;
+  margin-left: -25px;*/
+}
+
+/* Panelists Styling END */
+
+.wrapper__event-content {
+  
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.event-content-section {
+  float: left;
+  margin-right: 10px;
+  width: 65%;
+  background-color: #FFF;
+  position: relative;
+}
+
+.event-content-section{
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+.event-venue,
+.event-faq {
+  padding: 35px;
+  overflow: hidden;
+}
+
+.event-venue__title,
+.event-faq__title,
+{
+  font-weight: 700;
+}
+
+.event-venue-photo {
+  margin-right: 5px;
+  float: left;
+  width: 50%;
+}
+
+iframe {
+  padding-top: 10px;
+  width: 45%;
+}
+.event-address-name-large {
+  font-weight: bold;
+  font-size: 18px;
+  color: #021096;
+}
+.event-sponsor{
+  padding: 35px;
+   background-color: white;
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+  position: relative;
+  overflow: hidden;
+}
+.sponsor-name, .sponsor-logo {
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.sponsor-logo {
+  text-align: left;
+}
+.sponsor-logo img {
+  padding-top: 10px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sponsor-logo__title {
+  margin-bottom: 30px;
+}
+
+
+.wrapper__event-footer {
+  background-color: #FFF;
+  clear: both;
+  margin-bottom: 35px;
+  text-align: center;
+  padding: 35px;
+}
+/* Responsive CSS */
+/* */
+
+@media (max-width: 30em) {
+  .menu-button {
+    margin-right: .125em;
+  }
+  .event-summary {
+    width: 99.999%;
+  }
+  .event-details {
+    max-width: none;
+    margin-top: 30px;
+    width: 99.999%;
+  }
+  
+  #panelist-info__border li {
+    display: block;
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 0 0 0;
+  border-radius: 0px;}
+  #panelist-info__border li:first-child {
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 0 2px 0;
+  border-radius: 0px;}
+  
+  .event-content-section {
+    float: none;
+    width: 100%;
+  }
+  .event-content-left {
+    width: 99.999%;
+    clear: both;
+  }
+  .event-venue-photo,
+  .event-venue-map {
+    width: 100%;
+  }
+  .event-venue-map {
+    padding-bottom: 12px;
+  }
+  .event-venue-photo {
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+  .event-sponsor {
+    float: right;
+    width: 99.999%;
+  }
+  .sponsor-logo img {
+  display: inline-block;
+}
+}
+
+@media (min-width: 30.063em) {
+  
+  .menu-button {
+    margin-left: 10px;
+  }
+
+  .event-summary {
+    width: 99.999%;
+  }
+  
+  #panelist-info__border li {
+    display: block;
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 0 0 0;
+  border-radius: 0px;}
+  #panelist-info__border li:first-child {
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 0 2px 0;
+  border-radius: 0px;}
+  .event-content-section {
+    
+    float: none;
+    width: 100%;
+  }
+  
+  
+  .event-details {
+    max-width: none;
+    margin-top: 30px;
+    width: 99.999%;
+  }
+  
+  
+  .event-venue-photo,
+  .event-venue-map {
+    width: 100%;
+  }
+  .event-venue-map {
+    padding-bottom: 12px;
+  }
+  iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+   .sponsor-logo img {
+  display: inline-block;
+}
+}
+/*
+@media (min-width: 33.5em) {
+  iframe {
+    width: 330px;
+  }
+} */
+
+@media (min-width: 48em) {
+
+  .menu-button {
+    margin-left: 10px;
+  }
+  .event-summary {
+    width: 55%;
+    float: left;
+  }
+  
+  #panelist-info__border li {
+    
+  display: inline-block; 
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-radius: 0px;}
+  
+  #panelist-info__border li:first-child {
+  border-style: solid;
+    border-color: #021096;
+    border-width: 0 2px 0 0;
+  border-radius: 0px;
+  }
+ 
+  
+  .job-title { 
+    max-width: 230px; }
+  
+  
+  .event-content-section {
+    float:left;
+    width: 49%;
+  }
+  
+  
+  .event-details {
+    max-width: 330px;
+    width: 40%;
+    float: right;
+  }
+  .event-venue-photo {
+   // margin-right: 5px;
+  //  float: left;
+  //  width: 50%;
+  }
+  iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+   .sponsor-logo img {
+  display: block;
+}
+}
+
+@media (min-width: 64em) {
+  .event-date, .event-venue__title, .event-faq__title {
+    font-size: 27px;
+  }
+  .event-time {
+    font-size: 22px;
+  }
+  .event-venue-photo {
+  margin-right: 5px;
+  float: left;
+  width: 50%;
+}
+
+iframe {
+  max-width: 200px;
+  max-height: 200px;
+}
+  .event-content-section {
+  float: left;
+  width: 65%;
+}
+}
